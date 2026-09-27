@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "category": "HR",
+    "question": "Tell me about yourself.",
+    "ideal_answer": "I am a software engineer with experience building scalable web applications. I enjoy solving complex problems and collaborating with cross-functional teams. In my current role I led a project that improved page load times by 40 percent.",
+    "keywords": ["experience", "skills", "background", "role", "project", "team"]
+  },
+  {
+    "id": 2,
+    "category": "HR",
+    "question": "Why do you want to work for this company?",
+    "ideal_answer": "I admire the company's mission and innovative products. My skills align well with the team's goals and I see strong opportunities to grow while contributing meaningfully to the company's success.",
+    "keywords": ["mission", "values", "culture", "growth", "contribution", "alignment"]
+  },
+  {
+    "id": 3,
+    "category": "HR",
+    "question": "What are your greatest strengths?",
+    "ideal_answer": "My greatest strengths are problem-solving, communication, and adaptability. I can break down complex problems and collaborate effectively with diverse teams to deliver results.",
+    "keywords": ["strengths", "problem-solving", "communication", "adaptability", "teamwork"]
+  },
+  {
+    "id": 4,
+    "category": "HR",
+    "question": "What is your biggest weakness?",
+    "ideal_answer": "I sometimes focus too much on details, but I have learned to set time limits and prioritize tasks to stay efficient while maintaining quality.",
+    "keywords": ["weakness", "improvement", "self-awareness", "learning", "growth"]
+  },
+  {
+    "id": 5,
+    "category": "HR",
+    "question": "Where do you see yourself in five years?",
+    "ideal_answer": "In five years I see myself growing into a senior role where I can mentor others, lead impactful projects, and continue developing both technically and as a leader.",
+    "keywords": ["goals", "growth", "leadership", "career", "development", "mentor"]
+  },
+  {
+    "id": 6,
+    "category": "technical",
+    "question": "Explain the difference between SQL and NoSQL databases.",
+    "ideal_answer": "SQL databases are relational, use structured schemas with tables and rows, and ensure ACID compliance. NoSQL databases are non-relational, support flexible schemas like documents or key-value pairs, and are designed for horizontal scaling and high availability.",
+    "keywords": ["relational", "schema", "ACID", "scaling", "tables", "documents", "flexible"]
+  },
+  {
+    "id": 7,
+    "category": "technical",
+    "question": "What is REST and how does it differ from GraphQL?",
+    "ideal_answer": "REST is an architectural style using HTTP methods on resources identified by URLs, returning fixed data structures. GraphQL is a query language that lets clients request exactly the fields they need from a single endpoint, reducing over-fetching and under-fetching.",
+    "keywords": ["HTTP", "endpoints", "resources", "query", "over-fetching", "flexible", "schema"]
+  },
+  {
+    "id": 8,
+    "category": "technical",
+    "question": "How would you optimize a slow-loading web page?",
+    "ideal_answer": "I would optimize images, minify CSS and JavaScript, use a CDN, enable caching and compression, reduce server response time, and implement lazy loading for non-critical resources.",
+    "keywords": ["optimize", "images", "CDN", "caching", "compression", "lazy loading", "performance"]
+  },
+  {
+    "id": 9,
+    "category": "technical",
+    "question": "Describe how you would design a scalable system to handle millions of users.",
+    "ideal_answer": "I would use load balancing, horizontal scaling with stateless services, database sharding and read replicas, caching layers like Redis, a CDN for static assets, and asynchronous processing with message queues to handle traffic spikes.",
+    "keywords": ["scaling", "load balancing", "sharding", "caching", "CDN", "replicas", "queues"]
+  },
+  {
+    "id": 10,
+    "category": "technical",
+    "question": "What is the difference between authentication and authorization?",
+    "ideal_answer": "Authentication verifies who a user is, typically through credentials like passwords or tokens. Authorization determines what an authenticated user is allowed to do, controlling access to resources and actions through permissions and roles.",
+    "keywords": ["identity", "credentials", "permissions", "roles", "access", "verify", "tokens"]
+  },
+  {
+    "id": 11,
+    "category": "behavioral",
+    "question": "Tell me about a time you faced a difficult challenge at work.",
+    "ideal_answer": "I faced a critical production outage just before a major release. I stayed calm, diagnosed the root cause methodically, communicated with stakeholders, and deployed a fix within two hours, then added safeguards to prevent recurrence.",
+    "keywords": ["challenge", "problem", "solution", "communication", "stakeholders", "outcome", "learned"]
+  },
+  {
+    "id": 12,
+    "category": "behavioral",
+    "question": "Describe a situation where you had a conflict with a coworker.",
+    "ideal_answer": "I had a disagreement with a colleague about a technical approach. I initiated a one-on-one conversation, listened to their perspective, found common ground, and we reached a compromise that improved the final solution.",
+    "keywords": ["conflict", "communication", "listening", "compromise", "collaboration", "resolution"]
+  },
+  {
+    "id": 13,
+    "category": "behavioral",
+    "question": "Tell me about a time you led a team or project.",
+    "ideal_answer": "I led a migration project with a five-person team. I set clear milestones, delegated tasks based on strengths, held regular check-ins, and we completed the migration ahead of schedule with zero downtime.",
+    "keywords": ["leadership", "delegation", "milestones", "team", "schedule", "communication", "results"]
+  },
+  {
+    "id": 14,
+    "category": "behavioral",
+    "question": "Give an example of a goal you set and how you achieved it.",
+    "ideal_answer": "I set a goal to learn cloud architecture within six months. I created a study plan, completed certifications, applied the knowledge to a real project, and successfully migrated our application to the cloud.",
+    "keywords": ["goal", "plan", "learning", "certification", "project", "achievement", "milestones"]
+  },
+  {
+    "id": 15,
+    "category": "behavioral",
+    "question": "Tell me about a time you made a mistake and how you handled it.",
+    "ideal_answer": "I deployed a change that caused a minor bug in production. I immediately acknowledged the mistake, rolled back the change, communicated transparently with the team, and added automated tests to prevent similar issues.",
+    "keywords": ["mistake", "accountability", "fix", "communication", "learned", "prevention", "testing"]
+  }
+]
